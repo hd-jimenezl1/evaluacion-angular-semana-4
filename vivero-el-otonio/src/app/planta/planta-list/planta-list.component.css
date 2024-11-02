@@ -1,0 +1,13 @@
+.hr_vivero {
+
+    width: 1252px;
+}
+
+.contact{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

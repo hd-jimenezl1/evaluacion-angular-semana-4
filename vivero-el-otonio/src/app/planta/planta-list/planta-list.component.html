@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Vivero El Oto&ntilde;o</h1>
+      <hr class="hr_vivero">
+      <img src="header_img.png" width="1252" height="313">
+      <hr class="hr_vivero">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8">
+      <table class="table">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre Com&uacute;n</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Clima</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let planta of plantas">
+            <th scope="row">{{ planta.id }}</th>
+            <td>{{ planta.nombre_comun }}</td>
+            <td>{{ planta.tipo }}</td>
+            <td>{{ planta.clima }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>    
+  </div>
+  <div class="row">
+    <div class="col-12 contact">
+      Contact us: +57 3102105253 - info&commat;viveroelotonio.com - &commat;viveroelotonio
+    </div>
+  </div>
+</div>
